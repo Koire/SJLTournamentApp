@@ -27,5 +27,10 @@
         "titleBar.inactiveBackground": "#b02ea399",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.remoteColor": "#b02ea3"
+    "peacock.remoteColor": "#b02ea3",
+    "cSpell.words": [
+        "astro",
+        "astrojs",
+        "sjltournamentapp"
+    ]
 }
