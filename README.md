@@ -13,9 +13,9 @@
   - [ ]  events
     - [ ] create
     - [ ] randomizing
-    - [ ]  user list
-    - [ ]  event information
-    - [ ]  brackets / pods
+    - [ ] user list
+    - [ ] event information
+    - [ ] brackets / pods
   - [ ]  dashboard
 - [ ] Non registered users page (public)
 - [ ] Event pages (public or private?)
