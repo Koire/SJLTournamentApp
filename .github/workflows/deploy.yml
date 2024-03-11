@@ -35,5 +35,5 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "brave-gecko-87"
+          project: "sjltournament"
           entrypoint: "./server.js" 
