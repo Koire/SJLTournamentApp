@@ -22,12 +22,17 @@
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.border": "#b02ea3",
         "titleBar.inactiveBackground": "#b02ea399",
-        "titleBar.inactiveForeground": "#e7e7e799"
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "statusBar.debuggingBackground": "#2eb03b",
+        "statusBar.debuggingBorder": "#2eb03b",
+        "statusBar.debuggingForeground": "#e7e7e7"
     },
     "peacock.remoteColor": "#b02ea3",
     "cSpell.words": [
         "astro",
         "astrojs",
+        "preinstall",
         "sjltournamentapp"
-    ]
+    ],
+    "deno.enable": true
 }
