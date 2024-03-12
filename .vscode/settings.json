@@ -32,7 +32,8 @@
         "astro",
         "astrojs",
         "preinstall",
-        "sjltournamentapp"
+        "sjltournamentapp",
+        "webp"
     ],
     "deno.enable": true
 }
