@@ -1,12 +1,14 @@
 ---
 import Layout from '../layouts/BaseLayout.astro';
 import {Image} from 'astro:assets'
+import bannerSm from '@images/SJLBanner-small.jpg'
 import banner from '@images/SJLBanner.jpg'
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
 		<h1>Snap Judgments League Tournament</h1>
+		<Image src={bannerSm} alt="SJLBanner" />
 		<Image src={banner} alt="SJLBanner" />
 	</main>
 </Layout>
