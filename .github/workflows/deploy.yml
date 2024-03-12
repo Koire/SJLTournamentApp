@@ -29,6 +29,10 @@ jobs:
           node-version: lts/*
       - name: Install PNPM
         run: "npm install -g pnpm"
+      - name: Install Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
       - name: Build step
         run: "pnpm install && pnpm run build" # 📝 Update the build command(s) if necessary
 
