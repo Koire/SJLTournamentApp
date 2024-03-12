@@ -7,7 +7,7 @@
     "allowImportingTsExtensions": true,
     "noEmit": true,
     "paths": {
-      "@images": ["src/images"]
+      "@images/*": ["src/images/*"]
     }
   }
 }
