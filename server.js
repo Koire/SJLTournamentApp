@@ -8,5 +8,12 @@ const router = new Router();
 app.use(oakCors());
 app.use(router.routes());
 app.use(router.allowedMethods())
+app.use(async (context) => {
+    await context.send({
+      root: `${Deno.cwd()}/dist`,
+      index:"index.html",
+    });
+});
 
+console.log(`listening on port: ${port}`)
 await app.listen({port})
