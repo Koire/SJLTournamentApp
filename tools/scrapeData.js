@@ -1,9 +1,9 @@
-import puppeteer from "puppeteer"
+import { chromium } from "playwright"
 import fs from "node:fs/promises"
 
 
 const scrapePage = async () => {
-    const browser = await puppeteer.launch({
+    const browser = await chromium.launch({
         headless: true,
         defaultViewport: null
     })
@@ -26,7 +26,7 @@ const scrapePage = async () => {
     })
     await fs.writeFile("resources/cardData.json", JSON.stringify(cardData, null, 4))
 
-    browser.close()
+    await browser.close()
 }
 
 scrapePage()
