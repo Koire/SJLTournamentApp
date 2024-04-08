@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/BaseLayout.astro';
+import {Image} from 'astro:assets'
+import bannerSm from '@images/SJLBanner-small.jpg'
+import banner from '@images/SJLBanner.jpg'
+import cards from "../../resources/cardData.json"
+
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+        <h2>Cards</h2>
+        {cards.map(card => {
+            return <div>
+                <img src={card.src}/>
+                <span>{card.name}</span>
+            </div>
+        })}
+	</main>
+</Layout>
