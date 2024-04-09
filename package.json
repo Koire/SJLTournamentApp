@@ -9,7 +9,7 @@
     "build": "astro check && astro build",
     "preview": "deno run --allow-net --allow-read --allow-env ./dist/server/entry.mjs",
     "astro": "astro",
-    "scrapeData": "deno run --allow-net --allow-read --allow-write --allow-run --allow-env ./tools/scrapeData.js"
+    "scrapeData": "node ./tools/scrapeData.js"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.6",
